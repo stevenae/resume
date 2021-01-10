@@ -1,0 +1,228 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\usepackage{hyperref} 
+\usepackage[usenames, dvipsnames]{color}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{8pt}  % So the text is not indented under section headings
+\setlength{\textheight}{10.2in} % set text height big enough for box
+\topmargin=-16mm       % to start box .5in from top of page
+\oddsidemargin=-1.0125in   % to start box .5in from left of page
+\renewcommand{\baselinestretch}{1.05}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The following lines define \boxaround, used to draw a box on the page.
+% The parameter is the entire text of the resume. Must fit on one page!
+%
+% \boxaroundhmargin is the left & right margin around the text inside the box.
+% \boxaroundvmargin is the top & bottom margin around the text inside the box.
+% \boxrulethickness controls thickness of line used to draw the box.
+% You can change these 3 things in the lines below:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newdimen\boxrulethickness\newdimen\boxaroundhmargin\newdimen\boxaroundvmargin
+\boxrulethickness=0pt        %controls thickness of line 
+\boxaroundhmargin=21pt        % about a half inch
+\boxaroundvmargin=20pt        % to fit more text on page, make this smaller
+%%%%%%%%%%%%%%%%%%%%%%%%% Don't read this stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hsize=8.25in \vsize=13in             % use bigger dimensions for box
+\newbox\MACboxA  \newdimen\MACdimenA
+% \borderandboxit is used inside \boxaround:
+\def\borderandboxit#1#2#3{\vbox{\hrule height#2\hbox{\vrule width#2\hskip#1\hskip-#2%
+  \vbox{\vskip#1\relax#3\vskip#1}\hskip#1\hskip-#2\vrule width#2}\hrule height#2}}
+%
+\long\def\boxaround#1{\vskip6pt
+  {\MACdimenA=\hsize \advance\MACdimenA by-\boxaroundhmargin
+   \advance\MACdimenA by-\boxaroundhmargin   % once for each side
+   \setbox\MACboxA=\hbox to \hsize{\hskip\boxaroundhmargin%\hss
+                     \vbox{\hsize=\MACdimenA
+                           \vskip\boxaroundvmargin #1
+                           \vskip\boxaroundvmargin}\hss}%
+   \borderandboxit{0pt}\boxrulethickness{\box\MACboxA}}%
+  \vskip2pt plus0pt minus0pt
+}
+%%%%%%%%%%%%%%%%%%%  End of \boxaround macro %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\boxaround{ % put the text on the page inside a box  
+
+% \name{\large STEVEN A. ELLIS}
+%\address{ 75 Liberty St.\\San Francisco, CA 94110\\
+%        (240) 441-7803\\steven\_ellis@brown.edu} 
+%\address{\bf}
+
+\begin{resume}
+\def\hrulefill{\leavevmode\leaders\hrule height .6pt\hfill\kern\z}
+\begin{minipage}{7.6in}
+\vspace{-6mm}
+
+\centerline{\hspace{-2.75mm}{\Large \textbf {STEVEN A. ELLIS}}}
+\vspace{14mm}
+\begin{tabular}{{}{}}
+\hspace{-2.75mm}
+{\begin{minipage}{4.7in}
+\textbf{Technical Skills\hspace{2mm}}\hrulefill
+\vspace{1.5mm}
+\begin{list}{}{\leftmargin=0em}\itemsep-2pt
+\item Human subject research methods: experimental \& observational.
+%\item Technical collaboration and  using Github, AWS, Heroku.
+\item Collaborative development and deployment: R, Python, Git, AWS, Heroku.
+\item Statistical analysis and modeling: non/parametric, un/supervised.
+\end{list}
+\end{minipage}}
+%& {\hspace{-3mm}} 
+&
+{\begin{minipage}{2.75in}
+%\vspace{-4mm}
+\textbf{Soft Skills\hspace{2mm}}\hrulefill
+\vspace{1.5mm}
+\begin{list}{}{\leftmargin=0em}\itemsep-2pt
+%\item Project management and prioritization.
+\item Audience-aware technical communication.
+\item Hiring, team- and relationship-building.
+\item English (native), French (intermediate).
+\end{list}
+\end{minipage}}
+\end{tabular}
+
+\vspace{8mm}
+\hrulefill\textbf{\hspace{2mm}Selected Experience\hspace{2mm}}\hrulefill
+\vspace{2.5mm}
+
+%\textbf{Brick - Austin, TX}
+%\dotfill  {\small\textbf{June  2020 - Current}}
+
+%\vspace{0.75mm}
+%{\it Consultant}  
+%\vspace{0.5mm}
+%\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+%\item Translated high-level strategy to tactical, technical decision-making framework.
+%\item Outlined underwriting strategy and policies, arranging dataset purchases.
+%\end{list}
+
+%\vspace{3mm}
+
+\textbf{Divvy Homes - San Francisco, CA}
+\dotfill  {\small\textbf{September  2018 - June 2020}}
+
+\vspace{0.75mm}
+{\it Head of Data Science}  
+\vspace{0.5mm}
+\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item First data scientist, demonstrated transformative potential of data products, hired two further data scientists.
+\item Owned end-to-end development and deployment of suite of internal and customer-facing machine learning services.
+\item Worked with operational leaders to reorient business processes around data products.
+\item Presented to equity and debt investors during successful fundraising rounds, negotiated six-figure dataset purchases.
+%\item Introduced business-wide dashboard and regularly distributed data to investors.
+%\item Derived insights from log data, leading to UX redesign and new sales team compensation system.
+\end{list}
+
+\vspace{3mm}
+\textbf{Uber - San Francisco, CA}
+\dotfill  {\small\textbf{May  2014 - December  2016}}
+
+\vspace{0.75mm}
+{\it Data Scientist}
+\vspace{0.5mm}
+\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item Wrote Uber's guide to experimentation and served as primary company-wide experimentation methods consultant.
+\item Modeled city transit dynamics and introduced stratified sampling of marketplace experiments to increase statistical power.
+%\item Identified and resolved hazardous flaws in feature rollout infrastructure.
+\item Assessed partnership integrations via synthetic control method, presented results to partners (e.g., Google, Spotify).
+\end{list}
+
+\vspace{3mm}
+\textbf{Google - Mountain View, CA} 
+\dotfill  {\small\textbf{April  2011 - April  2014}}
+
+\vspace{0.75mm}
+{\it Quantitative User Experience Researcher}  
+\vspace{0.5mm}
+\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item Guided pricing and product strategy using hierarchical bayesian modeling of discrete choice data.% (\textcolor{blue}{\href{https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41381.pdf}{{link}}}).
+\item Identified surrogate geographic research regions by applying exact-test statistics to census data.% (\textcolor{blue}{\href{http://steven.ae/ama_poster.pdf}{{link}}}).
+\item Drove login experience redesign through in-person UX studies and live production experiments.% (\textcolor{blue}{\href{https://www.theverge.com/2014/4/29/5665516/sign-in-with-google-button-could-send-google-plus-to-oblivion}{{link}}}).
+\item Generated leads for partnerships by data-mining usage of Google products across the internet.
+%\item Augmented quantitative research with field visits and lab studies.
+\end{list}
+
+
+\vspace{2mm}
+%\textbf{Assistant New Media Producer - Brown University - Providence, RI}
+%\dotfill  {\small\textbf{March  2010 - December  2010}}
+%
+%\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+%\item Led analytics and initial site design for content network for international relations investigators.
+%\item Increased user engagement and blogger recruitment, contributed to securing \$300,000 in funding.
+%\end{list}
+%
+%\vspace{2mm}
+\textbf{American Enterprise Institute - College Park, MD}
+\dotfill  {\small\textbf{May  2009 - August  2009}}
+
+\vspace{0.75mm}
+{\it Research Assistant}  
+\vspace{0.5mm}
+\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item Found discrepancies in tool which modeled welfare policy impact, worked with developer and resolved these errors.
+\item Work was presented at APPAM policy analysis conference.
+\end{list}
+
+%\hrulefill
+
+\vspace{6mm}
+\hrulefill\textbf{\hspace{2mm}Selected Conference Posters, Presentations, and Tutorials\hspace{2mm}}\hrulefill
+\vspace{2.5mm}
+\begin{list}{}{%
+     \setlength{\labelwidth}{0pt}%
+     \setlength{\itemsep}{-2pt}%
+     \setlength{\leftmargin}{1em}%
+     \setlength{\itemindent}{-1em}%
+   }
+
+\item {\it Identifying Surrogate Geographic Research Regions with Advanced Exact Test Statistics}, AMA ART Forum, 2013, Chicago, IL.%{\textcolor{blue}{\href{http://steven.ae/ama_poster.pdf}{{\it Identifying Surrogate Geographic Research Regions with Advanced Exact Test Statistics}, AMA ART Forum, 2013, Chicago, IL.}}}
+\item {\it Conjoint Analysis in R...Now with Individual-Level Utilities and Survey Mockups}, AMA ART Forum, 2013, Chicago, IL.%{\textcolor{blue}{\href{https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41381.pdf}{{\it Conjoint Analysis in R...Now with Individual-Level Utilities and Survey Mockups}, AMA ART Forum, 2013, Chicago, IL.}}}
+\item {\it Unlocking the Potential of Conjoint Analysis/Discrete Choice Modeling and MaxDiff Scaling in Public Opinion and Survey Research}, AAPOR, 2013, Boston, MA.
+\item {\it Introduction to R for Marketing Researchers}, at AMA ART Forum and Sawtooth Software Conference, both in 2013.
+\item {\it Behavioral Economics and International Antidepressant Sales}, Cambridge University Department of Anthropology, 2010, Cambridge, UK.
+\end{list}
+
+\vspace{8mm}
+
+\begin{tabular}{{}{}}
+\hspace{-2.75mm}
+{\begin{minipage}{4.7in}
+\textbf{Personal Pursuits\hspace{2mm}}\hrulefill
+\vspace{1.5mm}
+\begin{list}{}{\leftmargin=0em}\itemsep-2pt
+\item Lifelong saber fencer; competed internationally and in NCAA Division I.
+\item Active visual artist; made a feature-length documentary in Croatia.
+\end{list}
+\end{minipage}}
+%& {\hspace{-3mm}} 
+&
+{\begin{minipage}{2.75in}
+%\vspace{-4mm}
+\textbf{Education\hspace{2mm}}\hrulefill
+\vspace{1.5mm}
+\begin{list}{}{\leftmargin=0em}\itemsep-2pt
+\item A.B., Brown University, Applied Psychology
+\item Class of 2010.5, Magna Cum Laude
+\end{list}
+\end{minipage}}
+\end{tabular}
+
+%\textbf{Contact}\dotfill
+%\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+%\item (240)~441-7803
+%\item stevenalonzoellis@gmail.com
+%\end{list}
+
+\end{minipage}
+\vspace{2mm}
+\end{resume}
+} %    end the material being boxed.
+\end{document}
+
+

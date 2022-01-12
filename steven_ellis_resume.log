@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 JAN 2021 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 DEC 2021 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,216 +237,216 @@ LaTeX Info: Redefining \nameref on input line 14.
 \MACboxA=\box48
 \MACdimenA=\dimen147
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 237.
+(Font)              <7> on input line 238.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 237.
+(Font)              <5> on input line 238.
 
 
-./steven_ellis_resume.tex:237: LaTeX Error: Illegal character in array arg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 }
-        %    end the material being boxed.
-? 
-
-./steven_ellis_resume.tex:237: LaTeX Error: Illegal character in array arg.
+./steven_ellis_resume.tex:238: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
-\hrulefill ...s \hrule height .6pt\hfill \kern \z 
-                                                  
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
-\hrulefill ...s \hrule height .6pt\hfill \kern \z 
-                                                  
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
 
-Overfull \hbox (8.66771pt too wide) in paragraph at lines 237--237
+./steven_ellis_resume.tex:238: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Undefined control sequence.
+\hrulefill ...s \hrule height .6pt\hfill \kern \z 
+                                                  
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Undefined control sequence.
+\hrulefill ...s \hrule height .6pt\hfill \kern \z 
+                                                  
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+
+Overfull \hbox (8.66771pt too wide) in paragraph at lines 238--238
 [][] 
  []
 
-./steven_ellis_resume.tex:237: Undefined control sequence.
+./steven_ellis_resume.tex:238: Undefined control sequence.
 \hrulefill ...s \hrule height .6pt\hfill \kern \z 
                                                   
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
+./steven_ellis_resume.tex:238: Undefined control sequence.
 \hrulefill ...s \hrule height .6pt\hfill \kern \z 
                                                   
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
+./steven_ellis_resume.tex:238: Undefined control sequence.
 \hrulefill ...s \hrule height .6pt\hfill \kern \z 
                                                   
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
+./steven_ellis_resume.tex:238: Undefined control sequence.
 \hrulefill ...s \hrule height .6pt\hfill \kern \z 
                                                   
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
 
-./steven_ellis_resume.tex:237: LaTeX Error: Illegal character in array arg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 }
-        %    end the material being boxed.
-? 
-
-./steven_ellis_resume.tex:237: LaTeX Error: Illegal character in array arg.
+./steven_ellis_resume.tex:238: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
-\hrulefill ...s \hrule height .6pt\hfill \kern \z 
-                                                  
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Undefined control sequence.
-\hrulefill ...s \hrule height .6pt\hfill \kern \z 
-                                                  
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.237 }
-        %    end the material being boxed.
-? 
-./steven_ellis_resume.tex:237: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.237 }
+l.238 }
         %    end the material being boxed.
 ? 
 
-Overfull \hbox (8.66771pt too wide) in paragraph at lines 237--237
+./steven_ellis_resume.tex:238: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Undefined control sequence.
+\hrulefill ...s \hrule height .6pt\hfill \kern \z 
+                                                  
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Undefined control sequence.
+\hrulefill ...s \hrule height .6pt\hfill \kern \z 
+                                                  
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+./steven_ellis_resume.tex:238: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.238 }
+        %    end the material being boxed.
+? 
+
+Overfull \hbox (8.66771pt too wide) in paragraph at lines 238--238
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
 
-Overfull \vbox (12.24155pt too high) has occurred while \output is active []
+Overfull \vbox (24.84158pt too high) has occurred while \output is active []
 
 
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
  5130 strings out of 480608
@@ -461,7 +461,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
 usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on steven_ellis_resume.pdf (1 page, 82725 bytes).
+Output written on steven_ellis_resume.pdf (1 page, 82626 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

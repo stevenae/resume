@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.12)  12 APR 2022 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.12)  15 JUN 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,7 +469,7 @@ Overfull \hbox (5.44548pt too wide) in paragraph at lines 239--239
  []
 
 
-Overfull \vbox (18.08789pt too high) has occurred while \output is active []
+Overfull \vbox (31.24348pt too high) has occurred while \output is active []
 
 
 [1
@@ -478,7 +478,7 @@ Overfull \vbox (18.08789pt too high) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  7685 strings out of 478994
  114034 string characters out of 5858184
- 419430 words of memory out of 5000000
+ 420430 words of memory out of 5000000
  25119 multiletter control sequences out of 15000+600000
  405901 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -489,7 +489,7 @@ ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on steven_ellis_resume.pdf (1 page, 82378 bytes).
+Output written on steven_ellis_resume.pdf (1 page, 82743 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

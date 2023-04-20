@@ -4,8 +4,17 @@
 \documentclass[12pt]{res} 
 \usepackage{hyperref} 
 \usepackage[usenames, dvipsnames]{color}
+\usepackage{fontspec,graphicx}
+
+\newfontfamily{\zapfinofont}{Zapfino}[
+  Ligatures={Common, Rare},
+  Variant=1,
+]
+
+
+
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{newcent}   % uses new century schoolbook postscript font 
 \newsectionwidth{8pt}  % So the text is not indented under section headings
 \setlength{\textheight}{10.2in} % set text height big enough for box
 \topmargin=-16mm       % to start box .5in from top of page
@@ -25,7 +34,7 @@
 \newdimen\boxrulethickness\newdimen\boxaroundhmargin\newdimen\boxaroundvmargin
 \boxrulethickness=0pt        %controls thickness of line 
 \boxaroundhmargin=21pt        % about a half inch
-\boxaroundvmargin=20pt        % to fit more text on page, make this smaller
+\boxaroundvmargin=5pt        % to fit more text on page, make this smaller
 %%%%%%%%%%%%%%%%%%%%%%%%% Don't read this stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hsize=8.25in \vsize=13in             % use bigger dimensions for box
 \newbox\MACboxA  \newdimen\MACdimenA
@@ -48,84 +57,62 @@
 \boxaround{ % put the text on the page inside a box  
 
 \begin{resume}
-\def\hrulefill{\leavevmode\leaders\hrule height .6pt\hfill\kern\z}
+%\def\hrulefill{\leavevmode\leaders\hrule height .6pt\hfill\kern\z}
 \begin{minipage}{7.6in}
 
-\centerline{{\LARGE \textbf {STEVEN ELLIS}}}
-\vspace{20mm}
-
-\textbf{Education\hspace{1mm}}\hrulefill
-\vspace{2mm}
-\begin{list}{}{\leftmargin=0em}\itemsep-2pt
-\item A.B., Brown University, Applied Psychology
-\item Class of 2010, Magna Cum Laude
-\end{list}
-
-\vspace{2mm}
-
-\textbf{Experience\hspace{1mm}}\hrulefill
-\vspace{2mm}
-
-\textbf{United States Digital Service; Washington, D.C.}
-
-{\it Data Scientist -- January 2023 - Current}
-\vspace{0.5mm}
-\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\centering{{\LARGE\textbf {STEVEN ELLIS}}}
+\vspace{12mm}
+\begin{list}{}{\leftmargin=0em}
+\item{\textbf{Experience}\dotfill
+\begin{list}{-}{\leftmargin=1em}
+\item{\textbf{United States Digital Service (Washington, D.C., January 2023 - Current)}
+\begin{list}{--}{\leftmargin=1em}
 \item Summarized available data sets for the White House Working Group on Puerto Rico.
-\end{list}
+\end{list}}
 
-\vspace{2mm}
-
-\textbf{GoBuild; Remote, USA}
-
-{\it Data Scientist -- July  2020 - June 2021}  
-\vspace{0.5mm}
-\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item{\textbf{GoBuild (Remote, USA, July  2020 - June 2021)}  
+\begin{list}{--}{\leftmargin=1em}
 \item Developed data product (XGBoost) demonstrating effect of home renovations on resale value, piloted with potential customers.
-%\item Part of successful YC funding round.
-\end{list}
+\end{list}}
 
-\vspace{2mm}
-\textbf{Divvy Homes; San Francisco, CA}
-
-{\it Head of Data Science -- September  2018 - June 2020}  
-\vspace{0.5mm}
-\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item{\textbf{Divvy Homes (San Francisco, CA, September  2018 - June 2020)}  
+\begin{list}{--}{\leftmargin=1em}
 \item Built and deployed core data products (XGBoost) determining home pricing and financing approval.
 \item Hired and managed two data scientists.
 \item Presented to and corresponded with equity and debt investors.
-\end{list}
+\end{list}}
 
-\vspace{2mm}
-\textbf{Uber; San Francisco, CA}
-
-{\it Data Scientist -- May  2014 - December  2016}
-\vspace{0.5mm}
-\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item{\textbf{Uber (San Francisco, CA, May  2014 - December  2016)}
+\begin{list}{--}{\leftmargin=1em}
 \item Quantified value of partnerships via causal inference methods.
 \item Resolved hazardous flaws in feature rollout infrastructure.
 \item Wrote Uber's guide to mobile experimentation.
-\end{list}
+\end{list}}
 
-\vspace{2mm}
-\textbf{Google; Mountain View, CA}
-
-{\it Quantitative User Experience Researcher -- April  2011 - April  2014}  
-\vspace{0.5mm}
-\begin{list}{}{\leftmargin=1em}\itemsep-2pt
+\item{\textbf{Google (Mountain View, CA, April  2011 - April  2014)}  
+\begin{list}{--}{\leftmargin=1em}
 \item Guided pricing and product strategy via discrete-choice (choice-based conjoint) methods.
 \item Identified surrogate geographic research regions via exact-test statistics.
-\end{list}
+\end{list}}
+\end{list}}
 
-\vspace{2mm}
 
-\textbf{Contact\hspace{1mm}}\hrulefill
-\vspace{2mm}
-\begin{list}{}{\leftmargin=0em}\itemsep-2pt
+
+\item{\textbf{Education}\dotfill 
+\begin{list}{-}{\leftmargin=1em}
+\item A.B., Brown University, Applied Psychology
+\item Class of 2010, Magna Cum Laude
+\end{list}}
+
+\item{\textbf{Contact\hspace{1mm}}\dotfill 
+\begin{list}{-}{\leftmargin=1em}
 \item stevenalonzoellis@gmail.com
 \item (240) 441-7803
+\end{list}}
 \end{list}
-
+\vspace{25mm}
+\centering\fontsize{20pt}{30pt}\zapfinofont
+\rotatebox{15}{Thank you!}
 
 \end{minipage}
 \end{resume}

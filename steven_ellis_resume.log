@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.1.12)  20 APR 2023 19:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.1.12)  20 APR 2023 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,17 +426,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 \MACboxA=\box49
 \MACdimenA=\dimen154
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 115.
+(Font)              <12> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 115.
+(Font)              <6> on input line 120.
 
 LaTeX Font Warning: Font shape `TU/pnc/b/n' undefined
-(Font)              using `TU/pnc/m/n' instead on input line 115.
+(Font)              using `TU/pnc/m/n' instead on input line 120.
 
 
-Overfull \vbox (46.9784pt too high) has occurred while \output is active []
+Overfull \hbox (5.865pt too wide) in paragraph at lines 120--120
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+
+ []
+
+
+Overfull \vbox (50.13289pt too high) has occurred while \output is active []
 
 
 [1
@@ -447,11 +457,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10170 strings out of 476919
- 202004 string characters out of 5821840
+ 10168 strings out of 476919
+ 201973 string characters out of 5821840
  549475 words of memory out of 5000000
- 30057 multiletter control sequences out of 15000+600000
- 406614 words of font info for 48 fonts, out of 8000000 for 9000
+ 30056 multiletter control sequences out of 15000+600000
+ 406606 words of font info for 47 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  81i,10n,96p,247b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 

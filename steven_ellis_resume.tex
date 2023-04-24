@@ -2,24 +2,16 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass[12pt]{res} 
-\usepackage{hyperref} 
 \usepackage[usenames, dvipsnames]{color}
-\usepackage{fontspec,graphicx}
-
-\newfontfamily{\zapfinofont}{Zapfino}[
-  Ligatures={Common, Rare},
-  Variant=1,
-]
-
 
 
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 \usepackage{newcent}   % uses new century schoolbook postscript font 
 \newsectionwidth{8pt}  % So the text is not indented under section headings
 \setlength{\textheight}{10.2in} % set text height big enough for box
-\topmargin=-24mm       % to start box .5in from top of page
-\oddsidemargin=-26.9mm   % to start box .5in from left of page
-\renewcommand{\baselinestretch}{1.05}
+\topmargin=-9mm       % to start box .5in from top of page
+\oddsidemargin=-7.5mm   % to start box .5in from left of page
+%\renewcommand{\baselinestretch}{1.05}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,11 +24,11 @@
 % You can change these 3 things in the lines below:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newdimen\boxrulethickness\newdimen\boxaroundhmargin\newdimen\boxaroundvmargin
-\boxrulethickness=1pt        %controls thickness of line 
-\boxaroundhmargin=21pt        % about a half inch
-\boxaroundvmargin=10pt        % to fit more text on page, make this smaller
+\boxrulethickness=.2pt        %controls thickness of line 
+\boxaroundhmargin=9pt        % about a half inch
+\boxaroundvmargin=25pt        % to fit more text on page, make this smaller
 %%%%%%%%%%%%%%%%%%%%%%%%% Don't read this stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hsize=8.4in \vsize=13in             % use bigger dimensions for box
+\hsize=6.85in \vsize=12in             % use bigger dimensions for box
 \newbox\MACboxA  \newdimen\MACdimenA
 % \borderandboxit is used inside \boxaround:
 \def\borderandboxit#1#2#3{\vbox{\hrule height#2\hbox{\vrule width#2\hskip#1\hskip-#2%
@@ -53,69 +45,41 @@
   \vskip2pt plus0pt minus0pt
 }
 %%%%%%%%%%%%%%%%%%%  End of \boxaround macro %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
 \boxaround{ % put the text on the page inside a box  
 
 \begin{resume}
-%\def\hrulefill{\leavevmode\leaders\hrule height .6pt\hfill\kern\z}
-\begin{minipage}{7.9in}
-\vspace{.2in}
-\hfil{\LARGE Steven Ellis}\hfil
-
-\vspace{.5in}
-
-\hfil{\Large Data Science Leader}\hfil
-
-\vspace{.5in}
-
-\begin{list}{}{\leftmargin=0em}
-\item{Experience\dotfill
-\begin{list}{-}{\leftmargin=1em}
-\item{United States Digital Service (January 2023\,-\,Current)
+\begin{list}{}{\leftmargin=1em}
+\item \centering{ Steven Ellis}
+\item
+\item{\dotfill Experience\dotfill
 \begin{list}{--}{\leftmargin=1em}
-\item Summarized available data sets for the White House Working Group on Puerto Rico.
-\end{list}}
+\item I currently work for the United States Digital Service (January 2023\,- Now). So far I have summarized available data sets for the White House Working Group on Puerto Rico.
 
-\item{GoBuild (July  2020\,-\,June 2021)
+\item I was the second employee at GoBuild (July  2020\,-\,June 2021), a seed-stage startup. I developed and piloted the startup's product, a tool which estimated the effect of home renovations on resale value.
+
+\item I was the first data scientist at Divvy Homes (September  2018\,-\,June 2020). I built and deployed core data products which determined home pricing and financing approval. I also hired and managed two data scientists.
+
+\item I was the sixth data scientist at Uber (May  2014\,-\,December  2016).  I quantified the value of business partnerships via causal inference methods. I also resolved hazardous flaws in Uber's feature rollout infrastructure.
+
+\item I was a quantitative user experience researcher at Google (April  2011\,-\,April  2014).  While there, I guided pricing and product strategy via discrete-choice methods. I also identified surrogate geographic research regions via exact-test statistics.
+\end{list}}
+\item
+\item{\dotfill Competencies\dotfill 
 \begin{list}{--}{\leftmargin=1em}
-\item Developed and piloted data product demonstrating effect of home renovations on resale value.
-\end{list}}
+\item Online machine learning service development and deployment. 
+\item Offline business process creation and iteration. 
+\item Parametric and non-parametric modeling. 
+\item Descriptive and predictive statistics. 
 
-\item{Divvy Homes (September  2018\,-\,June 2020)
+\end{list}}
+\item
+\item{\dotfill Education\dotfill 
 \begin{list}{--}{\leftmargin=1em}
-\item Built and deployed core data products determining home pricing and financing approval.
-\item Hired and managed two data scientists.
+\item Brown University 2011, Applied Psychology, Magna Cum Laude. 
 \end{list}}
-
-\item{Uber (May  2014\,-\,December  2016)
-\begin{list}{--}{\leftmargin=1em}
-\item Quantified value of partnerships via causal inference methods.
-\item Resolved hazardous flaws in feature rollout infrastructure.
-\end{list}}
-
-\item{Google (April  2011\,-\,April  2014)
-\begin{list}{--}{\leftmargin=1em}
-\item Guided pricing and product strategy via discrete-choice methods.
-\item Identified surrogate geographic research regions via exact-test statistics.
-\end{list}}
-\end{list}}
-
-\item{Education\dotfill 
-\begin{list}{-}{\leftmargin=1em}
-\item Brown University Class of 2010, Applied Psychology, A.B.
-\end{list}}
-
-\item{Contact\dotfill 
-\begin{list}{-}{\leftmargin=1em}
-\item stevenalonzoellis@gmail.com
-\end{list}}
+\item
 \end{list}
 
-\vspace{3.35in}
-
-%\begin{flushright}{\Large\zapfinofont Thank You}\end{flushright}
-
-\end{minipage}
 \end{resume}
 } %    end the material being boxed.
 \end{document}

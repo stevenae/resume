@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.1.12)  24 APR 2023 18:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.1.12)  12 JUN 2023 10:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -108,15 +108,15 @@ LaTeX Font Info:    ... okay on input line 15.
 \MACboxA=\box48
 \MACdimenA=\dimen145
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 84.
+(Font)              <12> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
+(Font)              <8> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
+(Font)              <6> on input line 87.
 
 
 LaTeX Font Warning: Font shape `TU/pnc/b/n' undefined
-(Font)              using `TU/pnc/m/n' instead on input line 84.
+(Font)              using `TU/pnc/m/n' instead on input line 87.
 
 [1
 
@@ -128,10 +128,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  905 strings out of 476919
  15065 string characters out of 5821840
- 311733 words of memory out of 5000000
+ 312733 words of memory out of 5000000
  20955 multiletter control sequences out of 15000+600000
  406182 words of font info for 38 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,10n,64p,284b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,10n,64p,320b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on steven_ellis_resume.pdf (1 page).

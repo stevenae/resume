@@ -9,9 +9,9 @@
 \usepackage{newcent}   % uses new century schoolbook postscript font 
 \newsectionwidth{8pt}  % So the text is not indented under section headings
 \setlength{\textheight}{10.2in} % set text height big enough for box
-\topmargin=-20mm       % to start box .5in from top of page
-\oddsidemargin=-8mm   % to start box .5in from left of page
-%\renewcommand{\baselinestretch}{1.05}
+\topmargin=-10mm       % to start box .5in from top of page
+\oddsidemargin=-19mm   % to start box .5in from left of page
+\renewcommand{\baselinestretch}{1.05}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25,10 +25,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newdimen\boxrulethickness\newdimen\boxaroundhmargin\newdimen\boxaroundvmargin
 \boxrulethickness=.2pt        %controls thickness of line 
-\boxaroundhmargin=9pt        % about a half inch
-\boxaroundvmargin=25pt        % to fit more text on page, make this smaller
+\boxaroundhmargin=1pt        % about a half inch
+\boxaroundvmargin=10pt        % to fit more text on page, make this smaller
 %%%%%%%%%%%%%%%%%%%%%%%%% Don't read this stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hsize=6.86in \vsize=12in             % use bigger dimensions for box
+\hsize=7.86in \vsize=12in             % use bigger dimensions for box
 \newbox\MACboxA  \newdimen\MACdimenA
 % \borderandboxit is used inside \boxaround:
 \def\borderandboxit#1#2#3{\vbox{\hrule height#2\hbox{\vrule width#2\hskip#1\hskip-#2%
@@ -49,24 +49,24 @@
 
 \begin{resume}
 \begin{list}{}{\leftmargin=1em}
-\item \centering{ Steven Ellis}
+\item \centering{ \textbf{Steven Ellis}}
 \item
-\item{\centering Experience
+\item{\centering \textit{Experience}
 \item
 \item
 \begin{list}{-}{\leftmargin=1em}
 \item I was a data scientist at the White House [United States Digital Service] (January 2023\,- June 2023). I supported the White House Working Group on Puerto Rico. We produced the first definitive analysis of federal funding for Puerto Rico and identified critical gaps in reporting compliance. I retain my Top-Secret clearance.
 
-\item I was the first data scientist, at Brick [now 'GoBuild'] (July  2020\,-\,June 2021). I developed the company's product, an AI tool which used computer vision to estimate the effect of home renovations on resale value. We successfully raised a seed round based on this product. I left to travel.
+\item I was the first data scientist at Brick [now 'GoBuild'] (July  2020\,-\,June 2021). I developed the company's product, an AI tool which used computer vision to estimate the effect of home renovations on resale value. We successfully raised a seed round based on this product.
 
-\item I was the first data scientist at Divvy Homes (September  2018\,-\,June 2020). I built and deployed AI home pricing and credit tools. These online, machine-learning based products contributed to a successful series B fundraise. My team also compiled the first company-wide analytics dashboard for investors. I hired and managed two data scientists. I left to join Brick.
+\item I was the first data scientist at Divvy Homes (September  2018\,-\,June 2020). I built and deployed AI home pricing and credit tools. These on-line, machine-learning based products contributed to a successful series B fundraise. My team also compiled the first company-wide analytics dashboard for investors. I hired and managed two data scientists.
 
-\item I was the sixth data scientist at Uber (May  2014\,-\,December  2016).  I quantified the value of business partnerships via causal inference methods and resolved hazardous flaws in Uber's feature rollout infrastructure. I served as the primary company-wide experiment and feature roll-out expert. I left to take time off. 
+\item I was the sixth data scientist at Uber (May  2014\,-\,December  2016).  I quantified the value of business partnerships via causal inference methods and resolved hazardous flaws in Uber's feature roll-out infrastructure. I served as the primary company-wide experiment and feature roll-out expert.
 
-\item I was a quantitative user experience researcher at Google (April  2011\,-\,April  2014).  While there, I guided pricing and product strategy via discrete-choice methods. I also identified surrogate geographic research regions via exact-test statistics and designed production experiments. I left to join Uber. 
+\item I was a quantitative user experience researcher at Google (April  2011\,-\,April  2014).  While there, I guided pricing and product strategy via discrete-choice methods. I also identified surrogate geographic research regions via exact-test statistics and designed production experiments.
 \end{list}}
 \item
-\item{\centering Expertise
+\item{\centering \textit{Expertise}
 \item
 \item
 \begin{list}{-}{\leftmargin=1em}
@@ -76,15 +76,13 @@
 
 \end{list}}
 \item
-\item{\centering Education
+\item{\centering \textit{Education}
 \item 
 \item
 \begin{list}{-}{\leftmargin=1em}
-\item Brown University 2011, Applied Psychology, Magna Cum Laude. 
-\item University of Southern California 2006-2008, Film Production, Transferred. 
+\item Brown University, 2008-2011, Applied Psychology, Graduated Magna Cum Laude. 
+\item University of Southern California, 2006-2008, Film Production, Transferred. 
 \end{list}}
-\item
-\item
 \item
 \item
 \end{list}

@@ -2,6 +2,11 @@
 % This file uses the resume document class (res.cls)
 \documentclass[12pt]{res} 
 \usepackage[usenames, dvipsnames]{color}
+
+\newcommand\textbox[1]{%
+  \parbox{.4\textwidth}{#1}%
+}
+
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 \usepackage{newcent}   % uses new century schoolbook postscript font 
 \newsectionwidth{8pt}  % So the text is not indented under section headings
@@ -45,22 +50,21 @@
 \begin{resume}
 \begin{list}{}{\leftmargin=1em}
 \item \centering {\textbf{Steven Ellis}}
-\vspace{9mm}
-\item{\textit{Experience}
+\item{
 \vspace{6mm}
 \begin{list}{}{\leftmargin=1em}
-\item United States Digital Service \dotfill Data Scientist\dotfill1/2023 -- 6/2023
+\item \textbox{United States Digital Service\dotfill}\textbox{Data Scientist\dotfill}\textbox{1/2023 -- 6/2023}
 \begin{list}{-}{\leftmargin=1em}
 \item Produced federal government's first comprehensive analysis of federal funding for Puerto Rico.
 \end{list}
 \vspace{4mm}
-\item GoBuild\dotfill Data Scientist \dotfill7/2020 -- 6/2021
+\item \textbox{GoBuild\dotfill}\textbox{Data Scientist\dotfill}\textbox{7/2020 -- 6/2021}
 \begin{list}{-}{\leftmargin=1em}
 \item Combined home pricing and computer vision models to estimate ROI of home renovation.
 \item Contributed to successful YCombinator application and subsequent funding round.
 \end{list}
 \vspace{4mm}
-\item Divvy Homes\dotfill Head of Data Science \dotfill9/2018 -- 6/2020
+\item \textbox{Divvy Homes\dotfill}\textbox{Head of Data Science\dotfill}\textbox{9/2018 -- 6/2020}
 \begin{list}{}{\leftmargin=1em}
 \item Individual Contributor
 \begin{list}{-}{\leftmargin=1em}
@@ -74,7 +78,7 @@
 \end{list}
 \end{list}
 \vspace{4mm}
-\item Uber Technologies\dotfill Data Scientist \dotfill5/2014 -- 12/2016
+\item \textbox{Uber Technologies\dotfill}\textbox{Data Scientist\dotfill}\textbox{5/2014 -- 12/2016}
 \begin{list}{}{\leftmargin=1em}
 \item Uber API
 \begin{list}{-}{\leftmargin=1em}
@@ -87,7 +91,7 @@
 \end{list}
 \end{list}
 \vspace{4mm}
-\item Google\dotfill Quantitative User Experience Researcher\dotfill4/2011 -- 4/2014
+\item \textbox{Google\dotfill}\textbox{Quantitative UX Researcher\dotfill}\textbox{4/2011 -- 4/2014}
 \begin{list}{}{\leftmargin=1em}
 \item Google Fiber
 \begin{list}{-}{\leftmargin=1em}
@@ -102,14 +106,13 @@
 \end{list}
 \end{list}
 \end{list}}
-\vspace{5mm}
-\item{\textit{Education}
+\item{
 \vspace{6mm}
 \begin{list}{}{\leftmargin=1em}
 \item Brown University, Applied Psychology\dotfill A.B. 2011
 \end{list}}
 \end{list}
-\vspace{8mm}
+\vspace{7mm}
 
 \end{resume}
 } %    end the material being boxed.

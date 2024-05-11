@@ -1,70 +1,75 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.12)  3 NOV 2023 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.5.11)  11 MAY 2024 07:39
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **steven_ellis_resume.tex
 (./steven_ellis_resume.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (./res.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@section=\count180
-\c@subsection=\count181
-\c@subsubsection=\count182
-\c@paragraph=\count183
-\c@subparagraph=\count184
-\c@figure=\count185
-\c@table=\count186
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
 No auxiliary output files.
 
-\tabular@text=\toks15
-\tabular@head=\toks16
-\tabular@tail=\toks17
-\@ta=\toks18
-\undefined@token=\toks19
-\sectionwidth=\dimen139
-\sectionskip=\skip49
-\resumewidth=\dimen140
-\@columnwidth=\dimen141
-\c@numberofcolumns=\count187
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+\tabular@text=\toks16
+\tabular@head=\toks17
+\tabular@tail=\toks18
+\@ta=\toks19
+\undefined@token=\toks20
+\sectionwidth=\dimen141
+\sectionskip=\skip50
+\resumewidth=\dimen142
+\@columnwidth=\dimen143
+\c@numberofcolumns=\count189
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package color Info: Driver file: xetex.def on input line 149.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/newcent.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/newcent.sty
 Package: newcent 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-LaTeX Font Info:    Trying to load font information for OT1+pnc on input line 1
-2.
+LaTeX Font Info:    Trying to load font information for TU+pnc on input line 12
+.
+LaTeX Font Info:    No file TUpnc.fd. on input line 12.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pnc.fd
-File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count188
-\l__pdf_internal_box=\box47
+
+LaTeX Font Warning: Font shape `TU/pnc/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+\g__graphics_track_int=\count190
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count191
+\g__pdf_backend_annotation_int=\count192
+\g__pdf_backend_link_int=\count193
 )
 
 LaTeX Warning: Unused global option(s):
@@ -80,72 +85,56 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+2.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count189
-\scratchdimen=\dimen142
-\scratchbox=\box48
-\nofMPsegments=\count190
-\nofMParguments=\count191
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count192
-\MPscratchDim=\dimen143
-\MPnumerator=\count193
-\makeMPintoPDFobject=\count194
-\everyMPtoPDFconversion=\toks21
-)
 \boxrulethickness=\dimen144
 \boxaroundhmargin=\dimen145
 \boxaroundvmargin=\dimen146
-\MACboxA=\box49
+\MACboxA=\box52
 \MACdimenA=\dimen147
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 94.
+(Font)              <12> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 94.
+(Font)              <8> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 94.
-
-Overfull \hbox (13.3146pt too wide) in paragraph at lines 94--94
-[]\OT1/pnc/m/n/12 Launch mem-ber of Uber API, quan-ti-fied value of part-ner-sh
-ips us-ing Ran-dom For-est (Python). 
- []
+(Font)              <6> on input line 115.
 
 
-Overfull \hbox (1.04372pt too wide) in paragraph at lines 94--94
-[]\OT1/pnc/m/n/12 Developed, de-ployed, and an-a-lyzed cus-tom pric-ing sur-vey
- to de-ter-mine Google Fiber signup
- []
+LaTeX Font Warning: Font shape `TU/pnc/b/n' undefined
+(Font)              using `TU/pnc/m/n' instead on input line 115.
 
 
-Overfull \vbox (68.4053pt too high) has occurred while \output is active []
+LaTeX Font Warning: Font shape `TU/pnc/m/it' undefined
+(Font)              using `TU/pnc/m/n' instead on input line 115.
+
+
+Overfull \vbox (24.34387pt too high) has occurred while \output is active []
 
 
 [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] ) 
-Here is how much of TeX's memory you used:
- 1212 strings out of 478994
- 18057 string characters out of 5858184
- 314805 words of memory out of 5000000
- 18740 multiletter control sequences out of 15000+600000
- 411169 words of font info for 44 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 58i,10n,64p,275b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/
-local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2
-021/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on steven_ellis_resume.pdf (1 page, 37641 bytes).
-PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+]
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 988 strings out of 478682
+ 17437 string characters out of 5849006
+ 1855018 words of memory out of 6000000
+ 21149 multiletter control sequences out of 15000+600000
+ 515039 words of font info for 43 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 47i,10n,52p,243b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on steven_ellis_resume.pdf (1 page).

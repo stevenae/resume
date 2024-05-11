@@ -1,58 +1,60 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.5.11)  11 MAY 2024 07:39
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.11)  11 MAY 2024 16:53
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **steven_ellis_resume.tex
 (./steven_ellis_resume.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./res.cls
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
-\c@figure=\count187
-\c@table=\count188
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
 No auxiliary output files.
 
-\tabular@text=\toks16
-\tabular@head=\toks17
-\tabular@tail=\toks18
-\@ta=\toks19
-\undefined@token=\toks20
+\tabular@text=\toks17
+\tabular@head=\toks18
+\tabular@tail=\toks19
+\@ta=\toks20
+\undefined@token=\toks21
 \sectionwidth=\dimen141
 \sectionskip=\skip50
 \resumewidth=\dimen142
 \@columnwidth=\dimen143
-\c@numberofcolumns=\count189
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+\c@numberofcolumns=\count192
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 149.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/newcent.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/newcent.sty
 Package: newcent 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 LaTeX Font Info:    Trying to load font information for TU+pnc on input line 12
@@ -63,13 +65,13 @@ LaTeX Font Info:    No file TUpnc.fd. on input line 12.
 LaTeX Font Warning: Font shape `TU/pnc/m/n' undefined
 (Font)              using `TU/lmr/m/n' instead on input line 12.
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
-\g__graphics_track_int=\count190
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count193
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count191
-\g__pdf_backend_annotation_int=\count192
-\g__pdf_backend_link_int=\count193
+\g__pdf_backend_object_int=\count194
+\g__pdf_backend_annotation_int=\count195
+\g__pdf_backend_link_int=\count196
 )
 
 LaTeX Warning: Unused global option(s):
@@ -87,8 +89,8 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 2.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
@@ -103,38 +105,43 @@ LaTeX Font Info:    ... okay on input line 12.
 \MACboxA=\box52
 \MACdimenA=\dimen147
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 115.
+(Font)              <12> on input line 113.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 113.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 115.
+(Font)              <6> on input line 113.
 
 
 LaTeX Font Warning: Font shape `TU/pnc/b/n' undefined
-(Font)              using `TU/pnc/m/n' instead on input line 115.
+(Font)              using `TU/pnc/m/n' instead on input line 113.
 
 
 LaTeX Font Warning: Font shape `TU/pnc/m/it' undefined
-(Font)              using `TU/pnc/m/n' instead on input line 115.
+(Font)              using `TU/pnc/m/n' instead on input line 113.
 
 
-Overfull \vbox (24.34387pt too high) has occurred while \output is active []
+Overfull \vbox (3.78479pt too high) has occurred while \output is active []
 
 
 [1
 
 ]
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 988 strings out of 478682
- 17437 string characters out of 5849006
- 1855018 words of memory out of 6000000
- 21149 multiletter control sequences out of 15000+600000
- 515039 words of font info for 43 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 47i,10n,52p,243b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 990 strings out of 474773
+ 17535 string characters out of 5757724
+ 1929839 words of memory out of 5000000
+ 23192 multiletter control sequences out of 15000+600000
+ 560821 words of font info for 47 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 49i,10n,52p,243b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on steven_ellis_resume.pdf (1 page).

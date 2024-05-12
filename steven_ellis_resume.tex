@@ -13,7 +13,7 @@
 \setlength{\textheight}{10.2in} % set text height big enough for box
 \topmargin=-20mm       % to start box .5in from top of page
 \oddsidemargin=-20.5mm   % to start box .5in from left of page
-\renewcommand{\baselinestretch}{1.1} 
+\renewcommand{\baselinestretch}{1.4} 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The following lines define \boxaround, used to draw a box on the page.
@@ -25,9 +25,9 @@
 % You can change these 3 things in the lines below:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newdimen\boxrulethickness\newdimen\boxaroundhmargin\newdimen\boxaroundvmargin
-\boxrulethickness=1pt        %controls thickness of line 
-\boxaroundhmargin=1pt        % about a half inch
-\boxaroundvmargin=1pt        % to fit more text on page, make this smaller
+\boxrulethickness=2pt        %controls thickness of line 
+\boxaroundhmargin=0pt        % about a half inch
+\boxaroundvmargin=0pt        % to fit more text on page, make this smaller
 %%%%%%%%%%%%%%%%%%%%%%%%% Don't read this stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hsize=7.86in \vsize=12in             % use bigger dimensions for box
 \newbox\MACboxA  \newdimen\MACdimenA
@@ -49,71 +49,43 @@
 \boxaround{ % put the text on the page inside a box  
 \begin{resume}
 \begin{list}{}{\leftmargin=1em}
-\item \centering {\textbf{Steven Ellis}}
-\item{
-\vspace{6mm}
-\begin{list}{}{\leftmargin=1em}
-\item \textbox{United States Digital Service\dotfill}\textbox{Data Scientist\dotfill}\textbox{1/2023 -- 6/2023}
+\item \centering {Steven Ellis}
+\item \raggedright{I am a data scientist and machine learning engineer with several years of experience across startups, corporations, and the federal government. I first learned to program as a child with Logo, then as a teenager with C++ and Java, settling now on Python after stints with R and Javascript.}
+\item \centering {Experience}
+\item \raggedright{United States Digital Service (Data Scientist)\dotfill}\raggedleft{1/2023 -- 6/2023}
 \begin{list}{-}{\leftmargin=1em}
 \item Produced federal government's first comprehensive analysis of federal funding for Puerto Rico.
 \end{list}
-\vspace{4mm}
-\item \textbox{GoBuild\dotfill}\textbox{Data Scientist\dotfill}\textbox{7/2020 -- 6/2021}
+\item \raggedright{GoBuild (Data Scientist)\dotfill}\raggedleft{7/2020 -- 6/2021}
 \begin{list}{-}{\leftmargin=1em}
 \item Combined home pricing and computer vision models to estimate ROI of home renovation.
 \item Contributed to successful YCombinator application and subsequent funding round.
 \end{list}
-\vspace{4mm}
-\item \textbox{Divvy Homes\dotfill}\textbox{Head of Data Science\dotfill}\textbox{9/2018 -- 6/2020}
-\begin{list}{}{\leftmargin=1em}
-\item Individual Contributor
+\item \raggedright{Divvy Homes (Head of Data Science)\dotfill}\raggedleft{9/2018 -- 6/2020}
 \begin{list}{-}{\leftmargin=1em}
 \item Developed, deployed, and monitored home pricing and credit ML services.
 \item Implemented policies to optimize expected value in home and tenant portfolio.
-\end{list}
-\item Leader
-\begin{list}{-}{\leftmargin=1em}
 \item Hired and managed two data scientists, roadmapped and directed projects.
 \item Engaged with equity and debt investors before, during, and after successful funding round.
 \end{list}
-\end{list}
-\vspace{4mm}
-\item \textbox{Uber Technologies\dotfill}\textbox{Data Scientist\dotfill}\textbox{5/2014 -- 12/2016}
-\begin{list}{}{\leftmargin=1em}
-\item Uber API
+\item \raggedright{Uber Technologies (Data Scientist)\dotfill}\raggedleft{5/2014 -- 12/2016}
 \begin{list}{-}{\leftmargin=1em}
 \item Quantified value of partnerships using Random Forest.
-\end{list}
-\item Uber Experimentation Platform
-\begin{list}{-}{\leftmargin=1em}
 \item Root-caused hazardous flaws in mobile experimentation infrastructure.
 \item Introduced variance reduction (CUPED) to marketplace experimentation.
 \end{list}
-\end{list}
-\vspace{4mm}
-\item \textbox{Google\dotfill}\textbox{Quantitative UX Researcher\dotfill}\textbox{4/2011 -- 4/2014}
-\begin{list}{}{\leftmargin=1em}
-\item Google Fiber
+\item \raggedright{Google (Quantitative UX Researcher)\dotfill}\raggedleft{4/2011 -- 4/2014}
 \begin{list}{-}{\leftmargin=1em}
 \item Guided Google Fiber rollout and fee structure, leading to successful product rollout.
 \item Built interactive, live dashboard to track Google Fiber rollout and guide logistics team.
 \item Determined Google Fiber SMB pricing using Choice-Based Conjoint analysis.
-\end{list}
-\item Google Identity Platform
-\begin{list}{-}{\leftmargin=1em}
 \item Identified leads for Google Identity Platform partnerships team by mining advertising data.
 \item Directed impactful in-person research and production experiments on Single Sign-On product.
 \end{list}
+\item \centering {Education}
+\item \raggedright{Brown University (Applied Psychology)}\dotfill \raggedleft{A.B. 2011}
+\item
 \end{list}
-\end{list}}
-\item{
-\vspace{6mm}
-\begin{list}{}{\leftmargin=1em}
-\item Brown University, Applied Psychology\dotfill A.B. 2011
-\end{list}}
-\end{list}
-\vspace{7mm}
-
 \end{resume}
 } %    end the material being boxed.
 \end{document}

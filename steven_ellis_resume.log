@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.11)  11 AUG 2024 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.11)  21 OCT 2024 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -108,12 +108,16 @@ LaTeX Font Info:    ... okay on input line 17.
 \MACboxA=\box53
 \MACdimenA=\dimen149
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 91.
+(Font)              <12> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 91.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 91.
- [1
+(Font)              <6> on input line 95.
+
+Overfull \vbox (34.75352pt too high) has occurred while \output is active []
+
+
+[1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
@@ -125,13 +129,13 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  1317 strings out of 474116
  21089 string characters out of 5743682
- 1934187 words of memory out of 5000000
+ 1935187 words of memory out of 5000000
  23716 multiletter control sequences out of 15000+600000
  563092 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,10n,52p,177b,224s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on steven_ellis_resume.pdf (1 page, 21938 bytes).
+Output written on steven_ellis_resume.pdf (1 page, 22220 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  8 compressed objects within 1 object stream
